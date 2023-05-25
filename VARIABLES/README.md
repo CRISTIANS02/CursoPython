@@ -6,7 +6,7 @@ a usar
 > = → es el signo de asignacion que nos indica que vamos a almacenar
 > cristian → es el dato que estamos almacenando
 >el identificador (nombre) como apunta aun en el espacio de memoria no se puede cambiar o editar.
-> sin emabargo eñl dato que almacena puedamutar en cualquier momento
+> sin emabargo el dato que almacena puedamutar en cualquier momento
 
 
 ## Pasos para  declarar una variable:
@@ -44,9 +44,7 @@ _3a ="valido"      → 2_a ="invalido" ,
   ##  *Camel Case*
   >*Camel Case* es una convención de nomenclatura popular en la programación. En este método de convención de nombres, las palabras que forman el nombre de la variable se escriben juntas y la primera letra de cada palabra se capitaliza excepto la primera palabra. Por ejemplo :
                                         
-     - firstName
-
-     - lastName
+     - firstName- lastName
      - phoneNumber
   >Son nombres de variables escritos en Camel Case.
  ## *Snake Case*
@@ -67,7 +65,7 @@ _3a ="valido"      → 2_a ="invalido" ,
 ## *Kebab Case*
 >*Kebab* Case es similar a *Snake Case*, pero en lugar de un guión bajo, las palabras que forman el nombre de la variable están separadas por un guión. Por ejemplo:
      * first-name
-    * last-name
+     * last-name
      * phone-number
 >son nombres de variables escritos en *Kebab Case*.
 

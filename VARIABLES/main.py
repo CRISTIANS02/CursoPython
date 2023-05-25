@@ -24,9 +24,28 @@ nombre="cristian"
 
 # EJEMPLO DE VARIABLES VALIDAS
 
-a ="valido"        → 3="invalido"
-a3= "valido"       → 3a="invalido"
-a_b_c ="valido"    → for="invalido"
-_abc= "valido"     → wisch="invalido"
-_3a ="valido"      → 2_a ="invalido"
- VARIABLES 
+# ="valido"        → 3="invalido"
+#3= "valido"       → 3a="invalido"
+#_b_c ="valido"    → for="invalido"
+#_abc= "valido"     → wisch="invalido"
+#_3a ="valido"      → 2_a ="invalido"
+
+
+
+# TEMA1:
+# TEMA2:
+# TEMA3:
+# TEMA4: tipos de datos
+# TEMA5: como conocemos el tipo de dato que almacenamos
+
+numero= 123
+nombre= "cristian"
+profeciones=(" arquitectura","macanica")
+animales=["gato","peroo"]
+
+print(type(numero))
+print(type(numero))
+print(type(numero))
+print(type(numero))
+
+# TEMA6: Funciones  build int input y print

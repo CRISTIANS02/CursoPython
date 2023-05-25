@@ -1,5 +1,4 @@
 # Operaciones con numeros
-
 # operadores de comparacion
 com=12<13
 # Operadores logicos
