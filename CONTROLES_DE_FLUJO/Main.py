@@ -10,11 +10,11 @@
 #evaluar si es menor de 17 monstrar com mensaje cana si es mayor a 18 monstara come y si es mayor a 40 monstrar ya esta usado
 
 #entrada de datos
-dead= input ('ingrese un edad: ')
-if edad < 17 :
-  print('cana')
-if edad > 40 :
-  print('ya esta usado')
+#dead= input ('ingrese un edad: ')
+#if edad < 17 :
+#  print('cana')
+#f edad > 40 :
+#  print('ya esta usado')
     
     
 # hacer  un programa que pida al usuario su dni si la longuitud del dni es 8  que pida Su nombre  y lo muestre por consola si la longuitud del dni es mayor o menor a 8 que le  mjestre un mensaje de erorr
@@ -35,3 +35,19 @@ else:
 
 
 # hacer un programa que pida al usuario ingresar el primer apellido si su apellido tiene en como ultimos caractereslas letras--ez-- mostrar un mensaje que diga casi eres español si los carcteres finales  son --es--  que diga eres casi peruano
+
+# datos de entrada 
+Apellido= input ("Ingrese su apellido Paterno:  ")
+comparacion=Apellido[-2:]
+if comparacion=='ez' :
+  print("eres casi español")
+if comparacion=='es':
+  print('eres casi peruano')
+
+## hacer un programa que le pida aun usuario su dni y compruebe que sea de 8 digitos, si es correcto que sume el primer numero del dni, mostrarpor la pantalla la suma y el resultado
+# ejemplo:
+## ingresa=12345678
+## "1+8=9"
+
+
+# hacer un programa que permita que el usuario ingrese un año  y me de com respuesta si es bisiesto o no
