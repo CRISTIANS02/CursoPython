@@ -1,4 +1,72 @@
-# Operaciones con numeros
+#  Operaciones con numeros 
+
+  ## *La suma, resta, multiplicación y división*
+ >Empecemos por la suma. Para sumar en Python, hay que utilizar el operador "+". Es el mismo que empleamos en la concatenación. Si lo usas con dos strings, los concatena, en cambio, si lo empleas con valores numéricos, los suma.
+ ### Declaración de dos valores numéricos
+    numero1 = 10
+    numero2 = 3
+
+ ### Se realiza la operación de suma. Almacena un 13 (10 + 3).
+    suma = numero1 + numero2
+
+ ### Se imprimen los valores de cada variable y el resultado de la suma.
+    print(f'La suma de {numero1} + {numero2} es {suma}.')
+
+### Resultado en la consola :
+    la suma de 10+3=13
+ Analicemos el código. Primero almaceno dos números en variables para operar con ellos.
+
+ En la variable "suma", realizo la operación de sumar el valor de las dos variables (10 + 3).
+
+ En el print() he utilizado el formateo de strings para mostrar los valores de las variables como quiera.
+
+## *Números en strings*
+ Ten en cuenta, que los valores numéricos, son identificados por Python como tal por no llevar comillas. Si las llevan, se convierten en strings y no son operables matemáticamente hablando:
+
+    numero1 = "10"
+    numero2 = "3"
+
+    suma = numero1 + numero2
+
+    print(f'La suma de {numero1} + {numero2} es {suma}.')
+### Resultado en la consola :
+
+    La  suma de 10 + 3 = 103
+
+ Fíjate en las variables, he puesto los números como strings.
+
+ Al ser strings, no se suman, se concatenan. El resultado de esto es que se junta el 10 con el 3, devolviendo un 103.
+
+## *La resta en Python*
+ para proceder con la operación de resta, solo tienes que usar el símbolo menos o guion "-".
+
+    numero1 = 10
+    numero2 = 3
+
+    resta = numero1 - numero2
+
+    print(f'La resta de {numero1} - {numero2} es {resta}.')
+ ### El resultado de consola 
+    La resta de  10 - 3 = 7
+
+## La multiplicación en Python
+
+ La multiplicación en Python se realiza con el operador "*" (asterísco).
+
+    numero1 = 10
+    numero2 = 3
+
+    multiplicacion = numero1 * numero2
+
+    print(f'La multiplicación entre {numero1} X {numero2} es {multiplicacion}.')
+### El resultado en consola 
+    La multiplicacion de  10 * 3 = 30
+
+ 
+
+
+
+
 
 ## operadores de comparacion
 >Los operadores de comparación se utilizan, como su nombre indica, para comparar dos o más valores. El resultado de estos operadores siempre es True o False.
