@@ -51,4 +51,21 @@ print(ultimoString[lonitud-1]) ## print (ultimoString[-11])
 #### pertenencia
 pertenencia='H'in 'hola mundo'
 con='a'>'A' → CODIGO ASSCCI
-print(pertenecia)
+print(con)
+
+## COMVERSIONES STRING NUMEROS
+numero='10'
+numeroComvertido=int(numero)
+print(type(numero))
+print(type(numeroComvertido))
+
+FlotanteString='10'
+FlotanteNumero=float(FlotanteString)
+
+print(FlotanteString)
+print(FlotanteNumero)
+numeroEntero=20
+numeroString=str(numeroEntero) ## "str"
+
+print (type(numeroEntero))
+print(tupy(numeroString))

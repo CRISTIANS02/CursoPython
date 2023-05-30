@@ -1,7 +1,17 @@
 # Operaciones con numeros
 
-# operadores de comparacion
+## operadores de comparacion
+>Los operadores de comparación se utilizan, como su nombre indica, para comparar dos o más valores. El resultado de estos operadores siempre es True o False.
+
+Operador	Descripción
+## → >Mayor que. True si el operando de la izquierda es estrictamente mayor que el de la derecha; False en caso contrario.   
+## → >=	Mayor o igual que. True si el operando de la izquierda es mayor o igual que el de la derecha; False en caso contrario.
+<	Menor que. True si el operando de la izquierda es estrictamente menor que el de la derecha; False en caso contrario.
+<=	Menor o igual que. True si el operando de la izquierda es menor o igual que el de la derecha; False en caso contrario.
+==	Igual. True si el operando de la izquierda es igual que el de la derecha; False en caso contrario.
+!=	Distinto. True si los operandos son distintos; False en caso contrario.
 com=12<13
+
 # Operadores logicos
 var = False & False
 opera= False| True>
