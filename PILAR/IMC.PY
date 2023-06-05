@@ -4,5 +4,5 @@ ALTURA=float(input("Talla en metros: "))
 IMC1=  ALTURA*ALTURA
 IMC2= PESO/IMC1
 print("TU IMC " ,IMC2)
-
+IF
 

@@ -51,3 +51,51 @@ if comparacion=='es':
 
 
 # hacer un programa que permita que el usuario ingrese un año  y me de com respuesta si es bisiesto o no
+
+
+
+
+ #if 
+vocal= input('ingrese  un a vocal minuscula: ' )
+match vocal:
+  case'a' :
+    print('es una vocal')
+  case'e' :
+    print('es una vocal')
+  case'i' :
+    print('es una vocal')
+  case'o' :
+    print('es una vocal')
+  case'u' :
+    print('es una vocal')
+    
+    
+#2
+vocales='aeiou'
+vocalmayus='AEIOU'
+ingresevocal=input('Ingrese una vocal minuscula: ')
+if ingresevocal in vocales:
+  print('es una vocal minuscula')
+elif ingresevocal in vocalmayus:
+  print('es una vocal mayuscula')
+else:
+  print('no es una vocal ni minuscula ni mayuscula')
+  
+
+
+## 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
