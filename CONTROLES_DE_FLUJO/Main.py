@@ -85,12 +85,17 @@ else:
 
 ## 3
 
+## 
+
+## escriba un programa en python que acepte la opcion de los jugadores en piedra-papel y tijera
+## entrada person 1 = papel
+##entrada persona 2 = tijera
+## salia 'gana la persona 2
 
 
 
 
-
-
+persona1=input()
 
 
 
