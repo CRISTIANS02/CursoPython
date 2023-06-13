@@ -1,0 +1,1 @@
+jugada_usuario =input("Elige piedra,papel o tijera:  ")
