@@ -16,3 +16,4 @@ while True:
         print('jugador 3 gana: tijera gana a papel')
     else:
         print("ninguno gana")
+        break
