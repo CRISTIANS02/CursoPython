@@ -95,12 +95,11 @@ else:
 
 
 
-persona1=input()
+
+# crear una lista de cinco colores a cada color que interes  tendra que mostrar
+# por cada consola, solo cuandoencuentre el
+# el color rojo montrara el mensaje nde color encontrado y se termina la ejecucion
 
 
 
-
-
-
-
-
+colores=['azul','naranja,'negro','rojo']
