@@ -7,7 +7,8 @@
 
 
 #ejercicio
-#evaluar si es menor de 17 monstrar com mensaje cana si es mayor a 18 monstara come y si es mayor a 40 monstrar ya esta usado
+#evaluar si es menor de 17 monstrar com mensaje cana si es ma
+# yor a 18 monstara come y si es mayor a 40 monstrar ya esta usado
 
 #entrada de datos
 #dead= input ('ingrese un edad: ')
@@ -91,7 +92,21 @@ else:
 ## entrada person 1 = papel
 ##entrada persona 2 = tijera
 ## salia 'gana la persona 2
-
+import python.util.Scanner;
+ public class BaseConversion {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+         System.out.print("Enter the number: ");
+        String number = input.nextLine();
+         System.out.print("Enter the base of the number: ");
+        int base1 = input.nextInt();
+         System.out.print("Enter the base to convert to: ");
+        int base2 = input.nextInt();
+         int decimal = Integer.parseInt(number, base1);
+        String result = Integer.toString(decimal, base2);
+         System.out.println("The converted number is: " + result);
+    }
+}
 
 
 
@@ -102,4 +117,10 @@ else:
 
 
 
-colores=['azul','naranja,'negro','rojo']
+colores =['azul','rojo','negro','verde']
+
+for color in colores:
+    if color =='rojo':
+        print("encontrado")
+        break
+    print(color)

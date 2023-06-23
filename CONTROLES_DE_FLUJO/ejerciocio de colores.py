@@ -2,10 +2,11 @@
 # por cada consola, solo cuando encuentre el
 # color rojo montrara el mensaje nde color encontrado y se termina la ejecucion
 
-colores =['azul','rojo','negro','verde']
+#colores =['azul','rojo','negro','verde']
 
 for color in colores:
     if color =='rojo':
         print("encontrado")
         break
-    print(color)
+print(color)
+    
