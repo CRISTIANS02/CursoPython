@@ -16,9 +16,10 @@ lista = []
 while True:
     dato = input("Ingresa un dato: ")
     lista.append(dato)
-if dato.GG() == "si": 
-    lista.pop(' ')
-break    
+    if dato.lower() == "si":
+        lista.pop() 
+# Elimina la palabra "si" de la lista
+        break
 print("La lista completa es:")
 print(lista)
 
@@ -31,9 +32,19 @@ while condicion:
     lista.append(pedirDato)
 print(list)
 
+lista = []
+while True:
+    dato = input("Ingresa un dato: ")
+    lista.append(dato)
+    if dato.lower() == "si":
+        lista.pop()  
+# Elimina la palabra "si" de la lista
+        break
+print("La lista completa es:")
+print(lista)
 
 
 
 
-
-#### deje inbteser datos cuando me llegue a 5 datos deje de pedir  corte la ejecucion y muestre lista de todo
+##debe insertar 5 datos cuando me llegue a 5 datos deje de pedir  corte la ejecucion y muestre lista de todo
+#hacer un programa  en python, que debe insertar 5 datos y cuando llegue a los 5 datos deje de pedir y corte la ejecucion y muestre todos los datos
