@@ -124,3 +124,42 @@ for color in colores:
         print("encontrado")
         break
     print(color)
+    
+    #hacer un programa  en python, que debe insertar 5 datos y cuando llegue a los 5 datos deje de pedir y corte
+# la ejecucion y muestre todos los datos
+lista = []
+for _ in range(0,5):
+    dato = input("Ingresa un dato: ")
+    lista.append(dato)
+    print("La lista completa es:")
+print(lista)
+
+ ## ejercicio resuelto en salon  
+ 
+ 
+
+
+
+
+
+
+
+### hacer un programa donde pida al usuario un numero luego generar la tabla de multiplicar
+#de dicho numero del 1 hasta el 12
+tablaDe=int(input('ingresa un numero: '))
+for numero in range(1,33):
+    resultado=numero*tablaDe
+    print(f"{numero} * {tablaDe} ={resultado }")
+    
+    
+    
+    
+#  hacer un programa que pida un numero y calcule su factorial
+#ejemplo si ingreso 5
+#  de salida me debera imprimir 120
+lista = []
+for _ in range(0,5):
+    dato = input("Ingresa un dato: ")
+    lista.append(dato)
+    print("La lista completa es:")
+print(lista)
