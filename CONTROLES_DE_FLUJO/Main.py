@@ -163,3 +163,11 @@ for _ in range(0,5):
     lista.append(dato)
     print("La lista completa es:")
 print(lista)
+
+
+numero
+
+
+
+
+# tarea mostrar la sucesion  fibocci de los  10 primeros numeros
