@@ -9,8 +9,15 @@ for _ in range(0,5):
 print(lista)
 
 
+# ejercio en clase 
+lista = []
 
-
-
-
+while len (lista) < 5:
+    ingreseDato=input('ingresa in dato: ')
+    lista.append(ingreseDato)
+print( f"""
+      ==============================================
+      los datos ingresados son{lista}
+      ==============================================
+      """)    
 
