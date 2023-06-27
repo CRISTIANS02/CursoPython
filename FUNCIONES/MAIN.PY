@@ -3,7 +3,7 @@
 ## establecemos los parametros que resivira nuestra funcion
 ##( funcion sin parametros)→b→
 
-def saludo():
+#def saludo():
     
     mensaje="""    
     ====================================================================
@@ -16,10 +16,35 @@ def saludo():
           
     """
     return mensaje
-def suma(numeroUno,numeroDos):
+#def suma(numeroUno,numeroDos):
     operacion=numeroUno+numeroDos
     return operacion
+#primerDato=int(input('Ingrese el primer numero: '))
+#segundoDato=int(input('Ingrese el segundo numero: '))
+
+#print (suma(primerDato,segundoDato))
+
+
+
+###2
+
+def mensaje(resultado):
+    
+     nuevoMensaje=f"""    
+    ====================================================================
+    EL RESULTADO DE LA OPERACION
+    DE LA SUMA ES :
+    {resultado}
+    ====================================================================
+          
+    """
+     return nuevoMensaje
+
+def suma(numeroUno,numeroDos):
+    operacion=numeroUno+numeroDos
+    return mensaje (operacion)
 primerDato=int(input('Ingrese el primer numero: '))
 segundoDato=int(input('Ingrese el segundo numero: '))
 
 print (suma(primerDato,segundoDato))
+

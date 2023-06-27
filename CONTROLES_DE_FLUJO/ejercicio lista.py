@@ -47,4 +47,5 @@ print(lista)
 
 
 ##debe insertar 5 datos cuando me llegue a 5 datos deje de pedir  corte la ejecucion y muestre lista de todo
-#hacer un programa  en python, que debe insertar 5 datos y cuando llegue a los 5 datos deje de pedir y corte la ejecucion y muestre todos los datos
+#hacer un programa  en python, que debe insertar 5 datos y cuando llegue a los 5 datos deje de pedir y corte
+# la ejecucion y muestre todos los datos
