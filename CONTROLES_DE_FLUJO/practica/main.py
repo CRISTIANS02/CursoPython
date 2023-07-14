@@ -1,5 +1,5 @@
 lista=[]
-indice=0
+indice=1
 palabra= ''
 while len(lista)<5:
    dato =input('ingrese el dato: ')
