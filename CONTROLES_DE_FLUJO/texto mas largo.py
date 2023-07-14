@@ -35,6 +35,6 @@ def textoLargo (array):
 #salidaper
 print(textoLargo(frutas))
 
-print("la fruta con  la longuitud mas larga es : ",textoLargo )
+print("la fruta con  la longuitud mas larga es : ",({textoLargo(frutas)}))
 print('Su indice positivo es:',indice)
   
