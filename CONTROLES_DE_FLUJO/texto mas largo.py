@@ -37,4 +37,4 @@ print(textoLargo(frutas))
 
 print("la fruta con  la longuitud mas larga es : ",({textoLargo(frutas)}))
 print('Su indice positivo es:',indice)
-  
+  ### clases de hoy de julio viernes 14 de julio del 2023
