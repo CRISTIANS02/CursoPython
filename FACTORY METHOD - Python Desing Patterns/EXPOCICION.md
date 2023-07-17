@@ -44,7 +44,9 @@ Los productos concretos proporcionan varias implementaciones
 
     class WindowsButton implements Button is
     method render(a, b) is
-        // Representa un botón en estilo Windows.
+
+Representa un botón en estilo Windows.
+
     method onClick(f) is
 Vincula un evento clic de OS nativo.
 
@@ -77,3 +79,53 @@ Siempre y cuando el cliente siga funcionando con el creador a través de la inte
         dialog.render()
 
 
+
+
+
+
+
+
+
+
+
+# ejemplo  en Python del patrón Factory Method:
+
+Clase base para el producto
+
+    class Product:
+        def operation(self):
+            pass
+
+Clase concreta que implementa el producto
+    class ConcreteProduct(Product):
+
+        def operation(self):
+            print("Operación realizada por ConcreteProduct")
+
+
+Clase creadora que contiene el Factory Method
+    class Creator:
+
+
+        def factory_method(self):
+            return ConcreteProduct()
+        def some_operation(self):
+            product = self.factory_method()
+            product.operation()
+
+
+Uso del patrón Factory Method
+
+    if __name__ == "__main__":
+        creator = Creator()
+        creator.some_operation()
+
+
+
+En este ejemplo, la clase  Product  es la clase base para todos los productos.  ConcreteProduct  es una implementación concreta de  Product  que realiza una operación específica. 
+ 
+La clase  Creator  es la clase creadora que contiene el Factory Method. En este caso, el Factory Method  factory_method  simplemente devuelve una instancia de  ConcreteProduct . El método  some_operation  utiliza el Factory Method para crear un objeto y realizar una operación en él. 
+ 
+Al ejecutar el código, se crea una instancia de  Creator  y se llama al método  some_operation . Esto resulta en la creación de un objeto  ConcreteProduct  y la realización de la operación definida en esa clase. 
+ 
+Espero que este ejemplo más simple te ayude a comprender mejor el patrón Factory Method en Python. Si tienes alguna otra pregunta, no dudes en preguntar.
