@@ -177,23 +177,42 @@
 
 '''frutas'''
 
-frutas=[]
-while len(frutas)<5:
-  nuevaFruta=input('Ingresa una fruta: ')
-  if nuevaFruta in frutas:
-    print('Esta fruta ya existe imbecil no seas penjedo *_*')
-  else:
-    frutas.append(nuevaFruta)
-print(frutas)
+# frutas=[]
+# while len(frutas)<5:
+#   nuevaFruta=input('Ingresa una fruta: ')
+#   if nuevaFruta in frutas:
+#     print('Esta fruta ya existe imbecil no seas penjedo *_*')
+#   else:
+#     frutas.append(nuevaFruta)
+# print(frutas)
 
-def textoLargo (array):
-  LongitudTexto=0
-  mostrarFruta=''
-  for index in range(0,len(array)):
-    if len(array[index])> LongitudTexto:
-      LongitudTexto=len(array[index])
-      mostrarFruta==array[index]
-  return mostrarFruta
+# def textoLargo (array):
+#   LongitudTexto=0
+#   mostrarFruta=''
+#   for index in range(0,len(array)):
+#     if len(array[index])> LongitudTexto:
+#       LongitudTexto=len(array[index])
+#       mostrarFruta==array[index]
+#   return mostrarFruta
 
-print(textoLargo(frutas))
+# print(textoLargo(frutas))
   
+# clase de 20 de julio 2023
+ # imprimir indice y valor que lo divide entre dos 
+# lista=['a','b','c']
+# for indice,valor in enumerate(lista):
+#   print(indice,valor)
+ # imprimir indice y valor que lo divide entre dos 
+ 
+lista=['a','b','c']
+for _valor in enumerate(lista):
+  print(_valor)
+  
+  
+  
+lista=['a','b','c']
+for _valor in enumerate(lista):
+  if _valor =='i':
+    print(_valor)
+  
+  # imprimir indice y valor que lo divide entre dos 
