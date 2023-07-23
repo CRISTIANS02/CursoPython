@@ -48,3 +48,35 @@ segundoDato=int(input('Ingrese el segundo numero: '))
 
 print (suma(primerDato,segundoDato))
 
+
+
+
+
+
+# clase de 20 de julio 2023
+
+ # imprimir indice y valor que lo divide entre dos 
+# lista=['a','b','c']
+# for indice,valor in enumerate(lista):
+#   print(indice,valor)
+ # imprimir indice y valor que lo divide entre dos 
+ 
+lista=['a','b','c']
+for _valor in enumerate(lista):
+  print(_valor)
+  
+  
+  
+lista=['a','b','c']
+for _valor in enumerate(lista):
+  if _valor =='i':
+    print(_valor)
+  
+  # imprimir indice y valor que lo divide entre dos 
+  
+  
+  
+  
+## CREAR UNA LISTA QUEALMACENE LOS NUMEROS DEL 1 AL 10
+# CREAR UNA FUNCION QUE ME PERMITA RECIBIR COMO PARAMETRO UNA LISTA,
+# LA FUNCION TENDRA QUE RETORNAR UN NUEVO ARRAY CON TODO LOS NUMERO PARES QUE EXISTEN 

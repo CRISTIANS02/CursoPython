@@ -61,3 +61,8 @@ def contar_vocales_a (texto):
     return contador
 cantidad_vocales_a = contar_vocales_a (texto)
 print("El TOTAL DE VOCALES A ES :", cantidad_vocales_a, "VOCALES 'a'.")
+
+
+
+
+#
