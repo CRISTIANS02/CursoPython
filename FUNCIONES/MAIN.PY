@@ -76,19 +76,19 @@
 
 
   
-  # imprimir indice y valor que lo divide entre dos 
-# empresa ={}
-# empresa['nombre']=input('ingrese nombre de la empresa : ')
-# empresa['ruc']=int(input('ingrese ruc de la empresa : '))
-# empresa['direccion']=(input('ingrese direccion a la empresa : '))
-# empresa['sucursales']=[]
-# while len(empresa['sucursales']) <2 :
-#   sucursal = input('ingrese el nombre de la sucursal : ')
-#   empresa ['sucursales'].append(sucursal)
-#   empresa['horario']={}
-#   empresa['horario']['dia'] = input('ingrese el horario del dia : ')
-#   empresa['horario']['tarde']=input('ingrese el horario de la tarde : ')
-# print(empresa)
+  #imprimir indice y valor que lo divide entre dos 
+empresa ={}
+empresa['nombre']=input('ingrese nombre de la empresa : ')
+empresa['ruc']=int(input('ingrese ruc de la empresa : '))
+empresa['direccion']=(input('ingrese direccion a la empresa : '))
+empresa['sucursales']=[]
+while len(empresa['sucursales']) <2 :
+  sucursal = input('ingrese el nombre de la sucursal : ')
+  empresa ['sucursales'].append(sucursal)
+  empresa['horario']={}
+  empresa['horario']['dia'] = input('ingrese el horario del dia : ')
+  empresa['horario']['tarde']=input('ingrese el horario de la tarde : ')
+print(empresa)
 
 
 
@@ -96,41 +96,41 @@
 #ejercicio 2
 
 
-# empresa=input('Ingrese el nombre de la empresa: ' )
-# ruc=input('Ingrese numero de ruc: ' )
-# direccion=input('Ingrese direccion: ' )
-# sucursales=[]
-# for indice in range(0,3):
-#   sucursal=input('Ingrese la sucursal: ' )
-#   sucursal.append(sucursal )
-# empresa={'nombre':empresa,
-#          'ruc':ruc,
-#          'direccion':direccion,
-#          'horario':horario
+empresa=input('Ingrese el nombre de la empresa: ' )
+ruc=input('Ingrese numero de ruc: ' )
+direccion=input('Ingrese direccion: ' )
+sucursales=[]
+for indice in range(0,3):
+  sucursal=input('Ingrese la sucursal: ' )
+  sucursal.append(sucursal )
+empresa={'nombre':empresa,
+         'ruc':ruc,
+         'direccion':direccion,
+         'horario':horario
          
-#          }  
+         }  
 
 
 
 # ejercicio 3
 
-# nombre=input('ingrese el nombre de la empresa: ' )
-# ruc=input('Ingrese numero de ruc: ' )
-# direccion=input('Ingrese direccion: ' )
-# sucursales=input('ingrse las sucursales separado por comas: ' ).split(',')
-# horario_dia=input('ingrese el horario de dia: ' )
-# horario_tarde=input('ingrese el horario de tarde: ' )
+nombre=input('ingrese el nombre de la empresa: ' )
+ruc=input('Ingrese numero de ruc: ' )
+direccion=input('Ingrese direccion: ' )
+sucursales=input('ingrse las sucursales separado por comas: ' ).split(',')
+horario_dia=input('ingrese el horario de dia: ' )
+horario_tarde=input('ingrese el horario de tarde: ' )
 
-# empresa={'nombre':nombre,
-#          'ruc':ruc,
-#          'direccion':direccion,
-#          'sucursal': sucursales,
-#          'horario':{
-#            'dia':horario_dia,
-#            'noche':horario_tarde
-#          }  
-# }
-# print(empresa)
+empresa={'nombre':nombre,
+         'ruc':ruc,
+         'direccion':direccion,
+         'sucursal': sucursales,
+         'horario':{
+           'dia':horario_dia,
+           'noche':horario_tarde
+         }  
+}
+print(empresa)
 
 
 
@@ -139,21 +139,22 @@
 #ejercicio 3
 
 empresas = []
-nombre=input('ingrese el nombre de la empresa: ' )
-ruc=input('Ingrese numero de ruc: ' )
-direccion=input('Ingrese direccion: ' )
-sucursales=input('ingrse las sucursales separado por comas: ' ).split(',')
-horario_dia=input('ingrese el horario de dia: ' )
-horario_tarde=input('ingrese el horario de tarde: ' )
-for i in range(0,3):
+while len(empresas)<3 :
+  nombre=input('ingrese el nombre de la empresa: ' )
+  ruc=input('Ingrese numero de ruc: ' )
+  direccion=input('Ingrese direccion: ' )
+  sucursales=input('ingrse las sucursales separado por comas: ' ).split(',')
+  horario_dia=input('ingrese el horario de dia: ' )
+  horario_tarde=input('ingrese el horario de tarde: ' )
+
   empresa={'nombre':nombre,
-          'ruc':ruc,
-          'direccion':direccion,
-          'sucursal': sucursales,
-          'horario':{
-            'dia':horario_dia,
-            'noche':horario_tarde
-          }  
- }
+            'ruc':ruc,
+            'direccion':direccion,
+            'sucursal': sucursales,
+            'horario':{
+              'dia':horario_dia,
+              'noche':horario_tarde
+            }  
+  }
   empresas.append(empresa)
   print(empresas)
