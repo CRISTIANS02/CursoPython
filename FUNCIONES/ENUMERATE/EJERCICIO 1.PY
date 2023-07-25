@@ -11,7 +11,7 @@ print(f"*_* BIENVENIDO A *-* →",(Nombre_De_Empresa), '2023')
 # Datos del usuario
 Nombre_cliente= input ('Ingrese su nombre ♠ ♠ → : ')
 Apellido_Cliente= input('Ingrese suApellido → : ')
-DNI= int(input('ingrese DNI: ♠ ♠ ' ))
+DNI= int(input('ingrese DNI ♠ ♠ :  ' ))
 
 
  
