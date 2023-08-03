@@ -72,30 +72,60 @@ def numeroMayor(arrayNumeros):
     return mayor
 print (numeroMayor(lista))
             
-# crear una funcion que reciba como como parametro una lista →array y retorne una lista de objetos
+# crear una funcion en puthon que reciba como como parametro una lista →array y retorne una lista de objetos
 # que tendra las caracteristias de cada elemento del array → lista
 
 lista=['aire','mar','tierra']
 
 
-def lista (array):
-    lista = []
-    for elemet in array:
+def lista_Nueva (array):
+    lista_2023 = []
+    for element in array:
         objet ={
-            ''
-        }
-        
-        
-        
+            '1':element.primero,
+            '2':element.segundo,
+            '':element.tercero
+       }
+        lista_2023.append(objet)
+    return lista_2023
+print
         
 
-# def create_object_list(array):
-#     object_list = []
-#     for element in array:
-#         object = {
-#             "characteristic1": element.attribute1,
-#             "characteristic2": element.attribute2,
-#             "characteristic3": element.attribute3
-#         }
-#         object_list.append(object)
-#     return object_list
+        
+        
+lista=['bosque','motaña','playa']  
+        
+def crear_lista_objetos(array):
+    lista_objetos = []
+    for elemento in array:
+        objeto = {
+            "Longitud": len(elemento),
+            "valor": elemento,
+            "posicion": array.index(elemento)
+        }
+        lista_objetos.append(objeto)
+    return lista_objetos  
+        
+[
+    {"Longitud": 6, "valor": "bosque", "posicion": 0},
+    {"Longitud": 8, "valor": "montaña", "posicion": 1},
+    {"Longitud": 6, "valor": "playa", "posicion": 2}
+]
+
+
+
+#  03/08/2023
+ListaNombre= ['cristian', 'Orlando','jory']
+edades=[50,20,10]
+
+def object(ListaNombre,edades):
+    lista=[]
+    for indice, objeto in enumerate (ListaNombre):
+        lista.append({'nombre': objeto, 'edad': edades[indice],'completo':f'{objeto} {edades[indice]}'})
+    return lista
+print(object(ListaNombre,edades))
+    
+# crear una funcion que reciba como parametro dos listas y retorne un array de objetos
+# con las sigientes caracteristicas
+#[{nombre:cristian,edad:50,completo cristian 50},{nombre:Orlando,edad:50,completo orlando 20},
+# {nombre:jory,edad:10,completo jory 10}]
