@@ -10,3 +10,4 @@ def crear_lista_objetos(array):
         lista_objetos.append(objeto)
     return lista_objetos  
         
+   

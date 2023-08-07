@@ -89,23 +89,15 @@ def lista_Nueva (array):
         lista_2023.append(objet)
     return lista_2023
 print
-        
 
-        
-        
-lista=['bosque','motaña','playa']  
-        
-def crear_lista_objetos(array):
-    lista_objetos = []
-    for elemento in array:
-        objeto = {
-            "Longitud": len(elemento),
-            "valor": elemento,
-            "posicion": array.index(elemento)
-        }
-        lista_objetos.append(objeto)
-    return lista_objetos  
-        
+    #      "Longitud": len(elemento),
+    #         "valor": elemento,
+    #         "posicion": array.index(elemento)
+    #     }
+    #     lista_objetos.append(objeto)
+    # return lista_objetos  
+                    
+   
 [
     {"Longitud": 6, "valor": "bosque", "posicion": 0},
     {"Longitud": 8, "valor": "montaña", "posicion": 1},
@@ -129,3 +121,31 @@ print(object(ListaNombre,edades))
 # con las sigientes caracteristicas
 #[{nombre:cristian,edad:50,completo cristian 50},{nombre:Orlando,edad:50,completo orlando 20},
 # {nombre:jory,edad:10,completo jory 10}]
+
+
+
+#tarea para 08/08/2023
+
+
+
+
+
+
+# crear un programa que pida los sigientes datos
+#nombres,apellidos,dni,programa de estudio,
+#de las unidades didacticas pedira los sigientes datos
+#el nombre de la unidad el promedio y la condicion se autocompletara
+# en relacion del promedio.
+#el objeto tendra la sigiente estructura.
+
+alumnos={
+  'nombres':'jose',
+  'apellidos':'alvarez escobar',
+  'dni':71458369,
+  'programa_estudio':'arquitectura',
+  'unidades_didacticas':[
+     {'lp':{'promedio':15,'condicion':'aprovado'}},
+     {'hds':{'promedio':2, 'condicion':'aprovado'}}
+        ]
+    
+    }
